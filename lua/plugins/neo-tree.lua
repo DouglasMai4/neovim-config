@@ -20,7 +20,8 @@ return {
             },
             never_show = { -- remains hidden even if visible is toggled to true, this overrides always_show
               ".DS_Store",
-              "thumbs.db"
+              "thumbs.db",
+              ".git"
             },
           },
           group_empty_dirs = false, -- when true, empty folders will be grouped together
